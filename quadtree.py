@@ -1,4 +1,8 @@
 #Implementacion QuadTree
+import random
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+
 class Point():
     def __init__(self, x, y):
         self.x = x
@@ -24,9 +28,7 @@ class Boundary():
         self.yend = yend
 
 
-import random
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+
 
 class QTree():
 
